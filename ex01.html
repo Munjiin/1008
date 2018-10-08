@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<style>
+    .wrapper{
+        width:100%;
+        border: 1px solid black;
+    }
+    .sample{
+        transition-duration: 2s; /*돌아가는 시간*/
+        width: 500px; /*300px 쓰기 위해선 미리 사이즈를 지정해 주어야 함*/
+
+    }
+   .sample:hover{  /*마우스를 올린다는 것.*/
+       width: 300px;
+        transform: rotate(45deg)
+       /*scale(0.5); 작아지는 크기가 반*/
+    }
+</style>
+
+<div class="wrapper">
+    <img class="sample" src="sample.jpg">
+</div>
+
+</body>
+</html>
